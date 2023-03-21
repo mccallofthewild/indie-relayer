@@ -229,14 +229,14 @@ export default function Home() {
             {connection.cxnA + " -> " + connection.cxnB}
           </Text>
         </Td>
-        <Td>
+        {/* <Td>
           {connection.arbitraryPriority
             ? Math.round(
                 (Date.now() - connection.arbitraryPriority) / 1000 / 60
               )
             : "never"}
-        </Td>
-        <Td>{connection.packetsPending}</Td>
+        </Td> */}
+        {/* <Td>{connection.packetsPending}</Td> */}
         <Td>
           <Button
             onClick={() => {
@@ -358,8 +358,8 @@ export default function Home() {
             <Thead>
               <Tr>
                 <Th>Connection</Th>
-                <Th>Minutes Ago</Th>
-                <Th>Packets Pending</Th>
+                {/* <Th>Minutes Ago</Th> */}
+                {/* <Th>Packets Pending</Th> */}
                 <Th>Relay</Th>
               </Tr>
             </Thead>

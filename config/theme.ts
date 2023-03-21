@@ -42,6 +42,7 @@ import { mode } from "@chakra-ui/theme-tools";
 // export const defaultTheme = extendTheme(defaultThemeObject);
 
 const styles = {
+  // @ts-ignore
   global: (props) => ({
     body: {
       bg: mode("#f2f7f5", "#f2f7f5")(props),
