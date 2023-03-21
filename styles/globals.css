@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: "lulo-one", sans-serif;
+  font-weight: 700;
+  font-style: normal; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: #fffffe;
+    /* background: #16161a; */
+  }
+}
+
+/* light mode */
+html {
+  color-scheme: light;
+}
+body {
+  color: black;
+  background: #fffffe;
+}
