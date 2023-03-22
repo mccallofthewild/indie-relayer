@@ -1,76 +1,127 @@
-This is a Cosmos App project bootstrapped with [`create-cosmos-app`](https://github.com/cosmology-tech/create-cosmos-app).
+# Indie Relayer
 
-## Getting Started
+<!-- <p align="center">
+  <img src="https://your_image_url_here/indie_relayer_logo.png" alt="Indie Relayer Logo" width="250">
+</p> -->
 
-First, install the packages and run the development server:
+<p align="center">
+  <!-- <a href="https://github.com/mccallofthewild/indie-relayer/releases"><img src="https://img.shields.io/github/v/release/mccallofthewild/indie-relayer?include_prereleases&style=for-the-badge" alt="GitHub Release"></a>
+  <a href="https://github.com/mccallofthewild/indie-relayer/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mccallofthewild/indie-relayer?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/mccallofthewild/indie-relayer/actions/workflows/main.yml"><img src="https://img.shields.io/github/workflow/status/mccallofthewild/indie-relayer/Build%20and%20Test/main?style=for-the-badge" alt="Build and Test"></a> -->
+  <!-- shield for existing -->
+  <a><img src="https://img.shields.io/badge/Indie%20Relayer-LATEST-blue?style=for-the-badge" alt="Indie Relayer"></a>
+  <a><img src="https://img.shields.io/badge/IBC-LATEST-blue?style=for-the-badge" alt="IBC"></a>
+  <a><img src="https://img.shields.io/badge/CosmosKit-STABLE-blue?style=for-the-badge" alt="CosmosKit"></a>
+</p>
 
-```bash
-yarn && yarn dev
-```
+> **Indie Relayer** is a powerful, user-friendly **IBC relayer** that allows you to relay your own packets *in-browser*! Say goodbye to complex setups and command-line interfaces!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Features
 
-## Learn More 
+- 💻 **In-browser**: No need for complex installation procedures. Indie Relayer runs directly in your browser.
+- 🔒 **Secure**: Your keys, your control. Indie Relayer never stores your private keys, ensuring the utmost security.
+- 📡 **Multi-chain support**: Relay packets between any IBC compatible chains.
+- 🌈 **Multi-wallet UI**: Enjoy a multi-wallet, user-friendly interface designed to make your relaying experience enjoyable.
 
-### Chain Registry
+---
 
-The npm package for the Official Cosmos chain registry. Get chain and token data for you application.
+> 💡 **NOTE**: Optimal in-browser relaying should be handled at the wallet level to minimize friction. This is a proof of concept intended to serve as example and inspiration for wallet providers.
 
-* https://github.com/cosmology-tech/chain-registry
+---
 
-### Cosmology Videos
+## 🚀 Getting Started
 
-Checkout more videos for how to use various frontend tooling in the Cosmos!
+1. **Visit** the Indie Relayer app by navigating to: `https://indierelayer.vercel.app`
+2. **Choose** the source and destination chains.
+3. **Connect** your wallet to the Indie Relayer app.
+4. **Select** the connection you want to relay. 🔁
+5. **Sign** the transactions using your browser wallet.
+6. **Congratulations**! You have successfully relayed your own packets using Indie Relayer! 🎉🎊
 
-* https://cosmology.tech/learn
+<!-- ---
 
-### Cosmos Kit
+## 📚 Documentation
 
-A wallet connector for the Cosmos ⚛️
+Check out our extensive documentation to learn more about Indie Relayer and how it works:
 
-* https://github.com/cosmology-tech/cosmos-kit
+- [User Guide](https://docs.indie-relayer.example.com/user-guide)
+- [Developer Guide](https://docs.indie-relayer.example.com/developer-guide)
+- [API Reference](https://docs.indie-relayer.example.com/api-reference)
+- [FAQs](https://docs.indie-relayer.example.com/faqs) -->
 
-### Telescope
+---
 
-A "babel for the Cosmos", Telescope is a TypeScript Transpiler for Cosmos Protobufs. Telescope is used to generate libraries for Cosmos blockchains. Simply point to your protobuffer files and create developer-friendly Typescript libraries for teams to build on your blockchain.
+## 🤝 Contributing
 
-* https://github.com/osmosis-labs/telescope
+We ❤️ contributions! Feel free to submit a pull request or report any issues you find. 
+<!-- For more information, please read our [Contributing Guidelines](https://github.com/mccallofthewild/indie-relayer/blob/main/CONTRIBUTING.md). -->
 
-🎥 [Checkout the Telescope video playlist](https://www.youtube.com/watch?v=n82MsLe82mk&list=PL-lMkVv7GZwyQaK6bp6kMdOS5mzosxytC) to learn how to use `telescope`!
+---
+<!-- 
+## 📃 License
 
-### CosmWasm TS Codegen
+Indie Relayer is licensed under the [MIT License](https://github.com/mccallofthewild/indie-relayer/blob/main/LICENSE).
 
-The quickest and easiest way to interact with CosmWasm Contracts. @cosmwasm/ts-codegen converts your CosmWasm smart contracts into dev-friendly TypeScript classes so you can focus on shipping code.
+--- -->
+> Made by **@mccallofthewild**. Happy Relaying 🚀
 
-* https://github.com/CosmWasm/ts-codegen
+---
 
-🎥 [Checkout the CosmWasm/ts-codegne video playlist](https://www.youtube.com/watch?v=D_A5V2PfNLA&list=PL-lMkVv7GZwz1KO3jANwr5W4MoziruXwK) to learn how to use `ts-codegen`!
+## 🙋 Support
 
+If you have any questions or need help, feel free to find me on discord or twitter. 
 
-## Learn More about Next.js
+<!-- If you need help or have questions, you can reach out to us through the following channels:
 
-To learn more about Next.js, take a look at the following resources:
+- [Discord](https://discord.gg/your_discord_invite_link)
+- [Twitter](https://twitter.com/your_twitter_handle)
+- [Email](mailto:support@indie-relayer.example.com)
+- [Forum](https://community.indie-relayer.example.com) -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- ---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📰 Updates and News
 
-## Deploy on Vercel
+Stay up to date with the latest Indie Relayer news and updates by following our official channels:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Blog](https://blog.indie-relayer.example.com)
+- [Twitter](https://twitter.com/your_twitter_handle)
+- [Telegram](https://t.me/your_telegram_channel)
+- [Reddit](https://www.reddit.com/r/IndieRelayer) -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
 
-## Credits
+## 🌐 Supported Chains
 
-🛠 Built by Cosmology — if you like our tools, please consider delegating to [our validator ⚛️](https://cosmology.tech/validator)
+Indie Relayer supports numerous chains, with more being added regularly! Here's a list of some of the **100+ supported chains**:
 
-Code built with the help of these related projects:
+- Cosmos Hub
+- Juno Network
+- Stargaze 
+- Iris Network
+- Osmosis
+- Akash Network
+- Crypto.org Chain
+- Regen Network
+- Sentinel
 
-* [@cosmwasm/ts-codegen](https://github.com/CosmWasm/ts-codegen) for generated CosmWasm contract Typescript classes
-* [@osmonauts/telescope](https://github.com/osmosis-labs/telescope) a "babel for the Cosmos", Telescope is a TypeScript Transpiler for Cosmos Protobufs.
-* [chain-registry](https://github.com/cosmology-tech/chain-registry) Cosmos chain registry and chain info.
-* [cosmos-kit](https://github.com/cosmology-tech/cosmos-kit) A wallet connector for the Cosmos.
+> Note: The complete list of supported chains can be found in the app.
+
+---
+
+## 🏆 Acknowledgements
+
+We would like to extend our gratitude to the following projects and resources that have made Indie Relayer possible:
+
+- [ts-relayer](https://github.com/confio/ts-relayer/) by [Confio](https://confio.tech/)
+- [Cosmos Kit](https://cosmoskit.com/) by [Cosmology](https://cosmology.tech/)
+- [Chain Registry](https://github.com/Cosmos/chain-registry) maintained by [Osmosis Labs](https://osmosis.zone/)
+- [IBC Protocol](https://ibcprotocol.org/) by the IBC team at [Interchain Foundation](https://interchain.io/)
+- [Keplr Wallet](https://github.com/chainapsis/keplr-extension)
+- [React](https://reactjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [ChatGPT](https://chat.openai.com/), who wrote this readme.
+
+> This list is not exhaustive, and we appreciate all the amazing open-source projects that have made Indie Relayer a reality!
